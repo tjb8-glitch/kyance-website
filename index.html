@@ -1596,48 +1596,18 @@
       and checks out over a live MCP connection while Kyance scores trust in real time
       and issues a cryptographically signed Trust Receipt as proof of authorization.
     </p>
-    <a href="https://youtu.be/pyLZO_RjzJQ" target="_blank" rel="noopener"
-       id="demo-thumb"
-       style="display: block; max-width: 840px; margin: 0 auto; border-radius: 16px; overflow: hidden; border: 1px solid var(--border-light); box-shadow: 0 24px 64px rgba(0,0,0,0.5); position: relative; cursor: pointer; text-decoration: none;">
-      <img
-        src="https://img.youtube.com/vi/pyLZO_RjzJQ/maxresdefault.jpg"
-        alt="Kyance — Agentic Commerce Trust Infrastructure Demo"
-        style="display: block; width: 100%; aspect-ratio: 16/9; object-fit: cover;"
-        onerror="this.src='https://img.youtube.com/vi/pyLZO_RjzJQ/hqdefault.jpg'"
-      />
-      <!-- Play button overlay -->
-      <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.25); transition: background 0.2s;" id="demo-overlay">
-        <div style="width: 80px; height: 80px; border-radius: 50%; background: rgba(139,26,26,0.92); border: 3px solid rgba(255,255,255,0.25); display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 32px rgba(0,0,0,0.5); transition: transform 0.2s, background 0.2s;" id="demo-play">
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="9,5 24,14 9,23" fill="white"/>
-          </svg>
-        </div>
+    <div style="max-width: 840px; margin: 0 auto; border-radius: 16px; overflow: hidden; border: 1px solid var(--border-light); box-shadow: 0 24px 64px rgba(0,0,0,0.5);">
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; background: var(--dark-3);">
+        <iframe
+          src="https://www.youtube.com/embed/pyLZO_RjzJQ"
+          title="Kyance — Agentic Commerce Trust Infrastructure Demo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        ></iframe>
       </div>
-      <!-- Duration / label badge -->
-      <div style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.7); border: 1px solid rgba(255,255,255,0.12); border-radius: 20px; padding: 6px 16px; display: flex; align-items: center; gap: 8px; white-space: nowrap;">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E88" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        <span style="font-size: 12px; font-weight: 600; color: white; letter-spacing: 0.04em;">Watch on YouTube</span>
-      </div>
-    </a>
-    <script>
-      (function() {
-        var thumb = document.getElementById('demo-thumb');
-        var overlay = document.getElementById('demo-overlay');
-        var play = document.getElementById('demo-play');
-        if (thumb) {
-          thumb.addEventListener('mouseenter', function() {
-            overlay.style.background = 'rgba(0,0,0,0.12)';
-            play.style.transform = 'scale(1.1)';
-            play.style.background = 'rgba(178,34,34,0.98)';
-          });
-          thumb.addEventListener('mouseleave', function() {
-            overlay.style.background = 'rgba(0,0,0,0.25)';
-            play.style.transform = 'scale(1)';
-            play.style.background = 'rgba(139,26,26,0.92)';
-          });
-        }
-      })();
-    </script>
+    </div>
   </section>
 
   <div class="section-divider"></div>
